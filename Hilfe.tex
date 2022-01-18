@@ -1,0 +1,110 @@
+% -----------------------------------------------------------
+% ----------------------AUFZÄHLUNGEN ------------------------
+%
+% \begin{itemize}
+%\item XXX
+%\item XXX
+%\end{itemize}
+%
+%-----------------------------------------------------------
+% -------------STANDARD TABELLE IN DER MITTE-----------------
+%
+%\begin{table}[htp]
+%   \centering
+%    \begin{tabular}{|c|c|c|}
+%        \hline
+%        \multicolumn{3}{|c|}{{\ul \textbf{Geräteliste}}}                       \\ \hline
+%        \textbf{Gerät}         & \textbf{Name}         & \textbf{Nummer}       \\ \hline
+%        Voltmeter              & x                     & x                     \\ \hline
+%        Amperemeter            & x                     & x                     \\ \hline
+%        Wattmeter              & x                     & x                     \\ \hline
+%        Oszilloskop            & x                     & x                     \\ \hline
+%        Funktionsgenerator     & x                     & x                     \\ \hline
+ %       \multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \hline
+%    \end{tabular}
+%\end{table}
+%
+%-----------------------------------------------------------
+%-----------------EINFÜGEN VON BILDERN----------------------
+%
+%\begin{figure} [htp]
+%    \centering
+%    \includegraphics[angle=-90, width=0.8\textwidth]{img/NAME_DES_BILDES}
+%    \caption{Ergebnis der Simulation}
+%    \label{figure:simulation}
+%\end{figure}
+%
+%
+%
+% Dieses Bild wird um 90° im Uhrzeigersinn durch den Befehl "angle=-90" gedreht.
+%
+%
+% Am besten oben auf Assistenten drücken und Grafik einfügen klicken
+%
+%-----------------------------------------------------------
+%----------------2 BILDER NEBENEINANDER---------------------
+%
+%\begin{figure}[htb!]
+%    \centering
+%    \begin{minipage}[t]{0.45\linewidth}
+%        \centering
+%        \includegraphics[width=\linewidth]{img/NAME_DES_BILDES}
+%        \caption{CAPTION EINFÜGEN}
+%        \label{fig:Bild1}
+%    \end{minipage}%
+%    \hfill
+%    \begin{minipage}[t]{0.45\linewidth}
+%        \centering
+%        \includegraphics[width=\linewidth]{img/NAME_DES_BILDES_2}
+%        \caption{CAPTION EINFÜGEN}
+%        \label{fig:Bild2}
+%    \end{minipage}%      
+%\end{figure}
+%
+%
+%----------------------------------------------------------
+%--------------------ERKENNTNISBOX-------------------------
+%
+%\begin{erkenntnisbox}
+%%       ....deine Erkenntnis
+%%\end{erkenntnisbox}
+%
+% Zeichnet eine Erkenntnisbox mit schwarzen Rahmen - weils cool is.
+%
+%
+%----------------------------------------------------------
+%---------------FORMEL MIT SI EINHEITEN--------------------
+% Beispiele: 
+%  100mm^2      $$ \SI{100}{\milli \meter ^2}$$
+%  50kVA        $$ \SI{50}{\kilo \volt \ampere}$$
+%  10 Sm/mm^2   $$ \SI{10}{\dfrac{\siemens \meter}{\milli \meter ^2}}
+%  10°C         $$ \SI{10}{\celsius}$$
+%
+% Es gibt sehr viele Einheiten, einfach ausprobieren :)
+%
+%
+%
+% Um Die tiefgestellten Buchstaben gerade darzustellen \mathrm{} verwenden.
+% Beispiel:  
+% Pges = 1000W  $$ P_\mathrm{gesamt} = \SI{1000}{\watt} $$
+%
+%
+%-----------------------------------------------------------
+%---------------------BILDER SPERREN------------------------
+% \floatbarrier 
+% zum setzen einer Barriere, dass Bilder nicht woanders sind
+%
+%
+%
+%-----------------------------------------------------------
+%----------------------DIPLOMARBEIT-------------------------
+%
+% Mit dem Befehl \ac{xxx} referenziert man auf Abkürzungen im Abk-Verzeichnis.
+%
+% Falls der Befehl \autoref{} oder \SI{}{} nicht erkannt wird, müssen die Befehle \usepackage{hyperref} und \usepackage{siunitx} in das Root Dokument kopiert werden und dann einmal kompilieren. Danach kann der Befehl wieder gelöscht werden.
+%
+% Die im Quellenverzeichnis angeführten Quellen werden mit dem Befehl \cite{NAMEDERQUELLE} zitiert.
+%
+%
+%
+% mit \responsible{Name des Autors} definiert man den Schüler, der den Text zum thema verfasst hat.
