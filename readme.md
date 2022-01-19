@@ -9,4 +9,4 @@ Die geupdatete Version einfach per Drag&Drop hinein ziehen und auf Ersetzen klic
 Aufgrund der Tatsache, dass ich nun die Diplomarbeit mache, kommen laufend Hilfestellungen zum thema Abkürzungsverzeichnis, Quellenangaben, Zitieren, ... hinzu.
 
 
-https://paypal.me/patrickrb8?country.x=AT&locale.x=de_DE
+https://paypal.me/patrickrb8
